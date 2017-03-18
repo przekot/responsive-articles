@@ -1,0 +1,110 @@
+body, html {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.post {
+    width:50%;
+    float:left;
+    min-height:300px;
+    color:#fff;
+    display:inline-block;
+    transition: all 0.3s ease;
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .post {
+        width:33.3333%;
+}
+
+}
+
+@media only screen and (max-width: 850px) {
+
+    .post {
+        width:100%;
+    }
+
+}
+
+.inner {
+    box-sizing: border-box;
+    padding:70px;
+}
+
+.red {
+    background: #f84c70;
+}
+
+.red:hover {
+    background: #b43b59;
+}
+
+.blue {
+    background: #6291f8;
+}
+
+.green {
+     background: #3ae662;
+ }
+
+.green:hover {
+    background: #06cb5b;
+}
+
+.blue:hover {
+    background: #526ac1;
+}
+
+.yellow {
+     background: #f3e91a;
+}
+
+.yellow:hover {
+    background: #cbc119;
+}
+
+.orange {
+    background:#f8894c;
+}
+
+.orange:hover {
+    background: #cc6a42;
+}
+
+.date, .time {
+    display:inline;
+    font-size:18px;
+}
+
+.date {
+    color:rgba(255,255,255,0.8);
+}
+
+.time {
+    padding-left:10px;
+    color:rgba(255,255,255,0.5);
+}
+
+.date:before{
+    content: url('../img/calendar.png');
+    width:16px;
+    height:16px;
+    padding-right:5px;
+
+}
+
+.time:before{
+    content: url('../img/stopwatch.png');
+    width:16px;
+    height:16px;
+    padding-right:5px;
+
+}
+
+.title {
+    font-size:2em;
+}
